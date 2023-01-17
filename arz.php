@@ -64,8 +64,6 @@ $resultcrypto[$i]['date']= convertPersianToEnglish($date[$i]);
 $resultcrypto[$i]['time']= convertPersianToEnglish($time[$i]); 
 } 
 //***************************************************************************
-// ===== اگه مادرت برات محترمه منبع رو پاک نکن عزیزم ===== \
-//***************************************************************************
 $get1=file_get_contents("https://www.tgju.org/currency");
 //=========================================================
 preg_match_all('#<th><span class="mini-flag flag-(.*?)"></span>(.*?)</th>
